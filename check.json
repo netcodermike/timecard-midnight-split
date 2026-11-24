@@ -1,0 +1,21 @@
+{
+  "command": [
+    "pwsh",
+    "-NoProfile",
+    "-File",
+    "app.ps1"
+  ],
+  "expected": {
+    "days": [
+      {
+        "date": "2026-02-14",
+        "minutes": 90
+      },
+      {
+        "date": "2026-02-15",
+        "minutes": 195
+      }
+    ],
+    "total_minutes": 285
+  }
+}
